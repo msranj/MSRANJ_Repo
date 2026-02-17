@@ -1,10 +1,12 @@
 
 # Server - DB Architecture 
 
-https://www.youtube.com/watch?v=jskazgQ9_VI 
-https://www.ourtechideas.com/sql-server-architecture/ 
-https://kindsonthegenius.com/mssql/ms-sql-server-architecture/ 
-https://support.quest.com/de-de/technical-documents/spotlight-on-sql-server/10.0.3/getting-started-guide/a-review-of-the-sql-server-architecture
+    https://www.youtube.com/watch?v=jskazgQ9_VI 
+
+    https://www.ourtechideas.com/sql-server-architecture/ 
+    https://kindsonthegenius.com/mssql/ms-sql-server-architecture/ 
+
+    https://support.quest.com/de-de/technical-documents/spotlight-on-sql-server/10.0.3/getting-started-guide/a-review-of-the-sql-server-architecture
 
 
 The 3 components of the SQL Server architecture would be covered: 
@@ -23,9 +25,14 @@ SQL Server Architecture
 
 This Layer specified the communication between the client and the database server. MS SQL server support three types of client-server protocols 
 
-<u>Shared Memory</u>: client & host in same local machine.  
-<u>Named Pipes</u>: client & host in same Local network. 
-<u>TCP/IP</u>: client & host in remote connections 
+    Shared Memory: 
+    client & host in same local machine.
+
+    Named Pipes: 
+    client & host in same Local network. 
+
+    TCP/IP: 
+    client & host in remote connections 
 
 These can be seen in the SQL Server configuration manager windows shown below: 
 
@@ -40,11 +47,17 @@ This is also known as the Query Processor engine.
 
 There are 3 sub-components here: 
 
-**CMD Parser** : This is the first component that receives the query. It checks if query is correct ( in syntax and semantics). It then generates the syntax tree. 
+    CMD Parser : 
 
-**Query Optimizer**: This creates and execution plan for the query. The execution plan specifies how the query would be executed. 
+    This is the first component that receives the query. It checks if query is correct ( in syntax and semantics). It then generates the syntax tree. 
 
-**Query Executor** : This actually executes the query by first calling the Access Method and providing an execution plan for fetching data. 
+    Query Optimizer: 
+
+    This creates and execution plan for the query. The execution plan specifies how the query would be executed. 
+
+    Query Executor : 
+    
+    This actually executes the query by first calling the Access Method and providing an execution plan for fetching data. 
 
 
 ### **3. Storage Engine**
@@ -54,18 +67,23 @@ This is core storage area of the architecture. The types of files stored by the 
 These are explained below: 
 
     Data Files (.mdf) : 
+
     This is also called the Primary File.This is the file that stores the database objects: tables, views, stored procedures etc.  It normally has the extension .mdf. 
 
     Transaction Log Files(.ldf): 
+
     These files are used for transaction management. They help to recover the database in case of failure. Transaction logs are also called  write-ahead logs. 
 
     Secondary Files (.ndf): 
+
     This is an optional file that holds user-specific data. They normally have the extension .ndf. Let’s now talk about two more components: Transaction Manager and Buffer Manager 
 
     Transaction Manager:
+
     Manages  non-select transaction with the help of log manager and lock manager. Once the access method determines that the query is non-     select, the Transaction Manager is invoked. 
 
-    Buffer Manager: 
+    Buffer Manager:
+
     Manages functions such as: Plan Cache, Data Parsing and Dirty Page. 
 
     Lazywriter: 
