@@ -4,6 +4,7 @@
     https://www.youtube.com/watch?v=jskazgQ9_VI 
 
     https://www.ourtechideas.com/sql-server-architecture/ 
+    
     https://kindsonthegenius.com/mssql/ms-sql-server-architecture/ 
 
     https://support.quest.com/de-de/technical-documents/spotlight-on-sql-server/10.0.3/getting-started-guide/a-review-of-the-sql-server-architecture
@@ -56,7 +57,7 @@ There are 3 sub-components here:
     This creates and execution plan for the query. The execution plan specifies how the query would be executed. 
 
     Query Executor : 
-    
+
     This actually executes the query by first calling the Access Method and providing an execution plan for fetching data. 
 
 
