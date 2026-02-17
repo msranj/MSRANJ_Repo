@@ -18,16 +18,16 @@ ___________ # Plan 3 : Quality reflect in Resume_
 
 Your resume should talk about 
 
-- Compliments 
-- Achievements 
-- Proven track record 
-- Client Saved money 
-- Client Made money 
-- Client saved time 
-- Make work easier 
-- Solve a problem 
-- Build relationship 
-- Attract customers 
+    - Compliments 
+    - Achievements 
+    - Proven track record 
+    - Client Saved money 
+    - Client Made money 
+    - Client saved time 
+    - Make work easier 
+    - Solve a problem 
+    - Build relationship 
+    - Attract customers 
  
 
 ___________ # Plan 4: Cover letter_____________ 
