@@ -68,7 +68,7 @@ Use pipes (|) to separate columns and hyphens (-) to create the header row.
 Here is a sentence with a footnote.[^1] (define the footnote elsewhere: [^1]: This is the footnote.). 
 
 ### Format/Emphasis
-![Formatting ](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkwtLZfTOU6l0nt3CQ85uB0c39ZeUs83DfuA&s)
+![Text Formatting](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkwtLZfTOU6l0nt3CQ85uB0c39ZeUs83DfuA&s)
 
 For emphasis, use asterisks or underscores:
 
