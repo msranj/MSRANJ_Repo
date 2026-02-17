@@ -53,15 +53,21 @@ This is core storage area of the architecture. The types of files stored by the 
 
 These are explained below: 
 
-**Data Files (.mdf)** : This is also called the Primary File.This is the file that stores the database objects: tables, views, stored procedures etc.  It normally has the extension .mdf. 
+    Data Files (.mdf) : 
+    This is also called the Primary File.This is the file that stores the database objects: tables, views, stored procedures etc.  It normally has the extension .mdf. 
 
-**Transaction Log Files(.ldf)** : These files are used for transaction management. They help to recover the database in case of failure. Transaction logs are also called  write-ahead logs. 
+    Transaction Log Files(.ldf): 
+    These files are used for transaction management. They help to recover the database in case of failure. Transaction logs are also called  write-ahead logs. 
 
-**Secondary Files (.ndf)** : This is an optional file that holds user-specific data. They normally have the extension .ndf. Let’s now talk about two more components: Transaction Manager and Buffer Manager 
+    Secondary Files (.ndf): 
+    This is an optional file that holds user-specific data. They normally have the extension .ndf. Let’s now talk about two more components: Transaction Manager and Buffer Manager 
 
-**Transaction Manager** : Manages  non-select transaction with the help of log manager and lock manager. Once the access method determines that the query is non-     select, the Transaction Manager is invoked. 
+    Transaction Manager:
+    Manages  non-select transaction with the help of log manager and lock manager. Once the access method determines that the query is non-     select, the Transaction Manager is invoked. 
 
-**Buffer Manager** : Manages functions such as: Plan Cache, Data Parsing and Dirty Page. 
+    Buffer Manager: 
+    Manages functions such as: Plan Cache, Data Parsing and Dirty Page. 
 
-**Lazywriter** : an internal process that works to free all types of cache. 
+    Lazywriter: 
+    An internal process that works to free all types of cache. 
 
