@@ -19,7 +19,7 @@ SQL Server Architecture
 
 ![SQL Server Architecture2] (https://support.quest.com/de-de/technical-documents/image/38e491fa-e5a8-44bf-9854-8827d0d5bdd5)
 
-**1. The Protocol Layer**
+### **1. The Protocol Layer**
 
 This Layer specified the communication between the client and the database server. MS SQL server support three types of client-server protocols 
 
@@ -31,7 +31,7 @@ These can be seen in the SQL Server configuration manager windows shown below:
 
 ![SQL Server configuration manager](https://www.ifixproblem.com/wp-content/uploads/2021/08/sql-server-configuration-manager-816x618.png)
 
-**2. Relational Database Engine** 
+### **2. Relational Database Engine** 
 
 This is also known as the Query Processor engine.  
 - Determines what operations would be executed by a query.  
@@ -47,7 +47,7 @@ There are 3 sub-components here:
 **Query Executor** : This actually executes the query by first calling the Access Method and providing an execution plan for fetching data. 
 
 
-**3. Storage Engine**
+### **3. Storage Engine**
 
 This is core storage area of the architecture. The types of files stored by the storage engine includes transaction log files (.ldf ) and data files(mdf).  
 
