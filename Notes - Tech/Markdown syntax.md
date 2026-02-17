@@ -67,3 +67,14 @@ Use pipes (|) to separate columns and hyphens (-) to create the header row.
 ### Footnotes: 
 Here is a sentence with a footnote.[^1] (define the footnote elsewhere: [^1]: This is the footnote.). 
 
+### Format/Emphasis
+
+For emphasis, use asterisks or underscores:
+
+Italics: *italic* or _italic_
+
+Bold: **bold** or __bold__
+
+Bold and Italic: ***bold and italic***
+
+underline: <u> This sentence will be underlined. </u>
