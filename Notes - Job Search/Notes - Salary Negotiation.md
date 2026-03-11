@@ -3,9 +3,9 @@
  
 When asked about your current salary, say this- 
  
-    1. “I have signed an NDA with my current employer which legally prohibits me from sharing my current salary.” 
+1. “I have signed an NDA with my current employer which legally prohibits me from sharing my current salary.” 
     
-    2. If they tell you they need the payslips, reply - “I’m happy to share the payslips once you’ve made me an offer and I resign from my current position.” 
+2. If they tell you they need the payslips, reply - “I’m happy to share the payslips once you’ve made me an offer and I resign from my current position.” 
 
  
 
