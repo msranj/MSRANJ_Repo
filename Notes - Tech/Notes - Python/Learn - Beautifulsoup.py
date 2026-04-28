@@ -12,19 +12,19 @@ import urllib.request as ur
 
 # reading a .html file
 with open(r"C:\Users\prade\Downloads\BeautifulSoup Tutorial How to Parse Web Data With Python.html",'r', encoding='utf-8') as f:
-    doc = BeautifulSoup(f,"html.parser")
+        doc = BeautifulSoup(f,"html.parser")
 
-print(doc.prettify())
+    # print(doc.prettify())
+
+# finding the .html file with tag
+
+tag = doc.title()
+tag.string = "hello"
+print(tag)
+print(tag.string)
 
 
 
 
-
-
-# Installing a parser
-    # Beautiful Soup supports the HTML parser included in Python's standard library, 
-    # but it also supports a number of third-party Python parsers. One is the lxml parser.
-
-    #   pip install lxml
 
  
