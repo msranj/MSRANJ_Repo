@@ -14,17 +14,32 @@ import urllib.request as ur
 with open(r"C:\Users\prade\Downloads\BeautifulSoup Tutorial How to Parse Web Data With Python.html",'r', encoding='utf-8') as f:
         doc = BeautifulSoup(f,"html.parser")
 
-    # print(doc.prettify())
+# print(doc.prettify())
 
 # finding the .html file with tag
 
-tag = doc.title()
-tag.string = "hello"
-print(tag)
-print(tag.string)
+# tag = doc.title()
+# tag.string = "hello world"
+# print(tag)
+# print(tag.string)
 
 
+# find the tags that are first to occur in the document
+# tag = doc.find("quote")
+tag = doc.find_all("p")[0]
 
-
-
+print(tag[0])
  
+# how to read from website
+    # install requests library by using
+    # pip install requests
+
+import requests
+
+
+
+
+
+
+
+
