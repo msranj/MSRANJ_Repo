@@ -1,7 +1,10 @@
 ## make sure to install all the necessary libraries
 ## reference
 ## https://github.com/KashmalaJamshaid/Web-scraping-using-python-and-beautifulsoup/blob/main/Web_Scraping_using_python_and_beautifulsoup.ipynb
-## https://www.youtube.com/watch?v=gRLHr664tXA
+## Beautiful Soup 4 Tutorial #1 - Web Scraping With Python https://www.youtube.com/watch?v=gRLHr664tXA
+
+
+
 
 
 
