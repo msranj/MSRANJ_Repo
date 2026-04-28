@@ -11,7 +11,7 @@ from urllib import request
 import urllib.request as ur
 
 # reading a .html file
-with open(r"C:/Users\prade\Downloads\BeautifulSoup Tutorial How to Parse Web Data With Python.html",'r', encoding='utf-8') as f:
+with open(r"C:\Users\prade\Downloads\BeautifulSoup Tutorial How to Parse Web Data With Python.html",'r', encoding='utf-8') as f:
     doc = BeautifulSoup(f,"html.parser")
 
 print(doc.prettify())
