@@ -37,13 +37,11 @@ from bs4 import BeautifulSoup
 
 import requests
 
-url = "https://www.mightyape.co.nz/mn/canon/shop/category/electronics/cameras-video/lenses/"
-
+url = "https://www.mightyape.co.nz/mn/buy/mighty-ape-canon-eos-r100-with-18-45-55-210mm-twin-lens-kit-36664248/"
 result = requests.get(url)
 
-print(result.text) 
-
-
-
-
+# print(result.text) 
+doc = BeautifulSoup(result.text,"html.parser")
+prices = doc.find_all(string="Canon")
+print(prices)
 
