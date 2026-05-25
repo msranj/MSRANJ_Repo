@@ -41,7 +41,7 @@ url = "https://www.mightyape.co.nz/mn/canon/shop/category/electronics/cameras-vi
 
 result = requests.get(url)
 
-print(result) 
+print(result.text) 
 
 
 
