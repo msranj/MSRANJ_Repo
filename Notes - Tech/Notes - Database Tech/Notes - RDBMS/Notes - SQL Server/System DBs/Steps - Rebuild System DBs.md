@@ -104,10 +104,13 @@ https://docs.microsoft.com/en-us/sql/relational-databases/databases/rebuild-syst
 ## Rebuild: Tempdb
 		
 If the tempdb database is damaged and the database engine fails to start, you can rebuild tempdb without the need to rebuild all system databases.
+
 	1) Rename the current tempdb.mdf and templog.ldf files, if not missing.
+
 	2) Start SQL Server from a Command Prompt by using the following command.
 		cmd>> sqlservr -c -f -T3608 -T4022 -s <instance> -mSQLCMD (for named instance use MSSQL$<instance_name>)
 				Note : Make sure that the command prompt window remains open after the SQL Server starts. Closing the command prompt window will terminate the process.
+
 	3) Connect to the server by using sqlcmd, and then use the following stored procedure to reset the status of the tempdb database.
 		sqlcmd> exec master..sp_resetstatus tempdb
 	
