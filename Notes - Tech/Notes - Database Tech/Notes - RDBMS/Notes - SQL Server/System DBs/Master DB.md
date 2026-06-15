@@ -1,5 +1,6 @@
 ## Master: 
 Records all instance level information like 
+
 		○ Logins, 
 		○ Location of database log files & data files, 
 		○ Accounts, 
