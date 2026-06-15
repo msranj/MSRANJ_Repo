@@ -20,9 +20,10 @@ Page Architecture:
 ***********
 
 SQL Server - **Data Pages** <[SQL Server Quickie #1 - Data Pages](https://www.youtube.com/watch?v=o5Pf5FHJHyU)>
-	Data in SQL Server is stored inside Data pages. Each Data page is 8 KB size.
+Data in SQL Server is stored inside Data pages. Each Data page is 8 KB size.
 
 Page consists of 3 sections,
+
 		• **Page Header (96 Bytes)**
 		• **Actual Data / Payload** : stores data/records
 		• **Row offset array** : details of where each data / record is placed. 
