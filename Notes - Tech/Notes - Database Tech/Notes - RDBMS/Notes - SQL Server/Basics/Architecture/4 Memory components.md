@@ -31,15 +31,15 @@ Query memory (also known as workspace memory) is used to temporarily store 	resu
 	
 Queries can timeout if they spend too much time waiting for a memory grant. The timeout duration is controlled by the Query Wait option, which can be modified using sp_configure or on the Advanced page of Server Properties in Management Studio.
 	
-**Query Memory : Perfmon counters** 
+    Query Memory : Perfmon counters** 
 
-**Granted Workspace Memory (KB)**: Total amount of query memory currently in use.
+    Granted Workspace Memory (KB)**: Total amount of query memory currently in use.
 
-**Maximum Workspace Memory (KB)**: Total amount of memory that SQL Server has marked for query memory
-	
-**Memory Grants Pending**: Number of memory grants waiting in the queue
+    Maximum Workspace Memory (KB)**: Total amount of memory that SQL Server has marked for query memory
+        
+    Memory Grants Pending**: Number of memory grants waiting in the queue
 
-**Memory Grants Outstanding**: Number of memory grants currently in use
+    Memory Grants Outstanding**: Number of memory grants currently in use
 	
 The **RESOURCE_SEMAPHORE** wait type is a wait on a memory grant, so if you see this near the top in your results from the sys.dm_os_wait_stats DMV then your system is struggling to provide memory grants fast enough.
 	
