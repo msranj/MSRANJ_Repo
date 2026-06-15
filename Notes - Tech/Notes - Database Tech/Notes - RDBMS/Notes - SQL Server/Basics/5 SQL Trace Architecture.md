@@ -63,6 +63,7 @@ Security concerns
 ******************
 
 Min permission: ALTER TRACE
+
 	- Since the permission is given at server level, event data of all the databases will be exposed not just specific to one database.
 	- Prior to SQL server 2005, only sysadmin at server level was the only login that helped get the trace data for user. After sql 2005, ALTER TRACE to login was less risker w.r.t security concerns.
 	- Sensitive data like password, encrypted data will be masked while running the trace.
