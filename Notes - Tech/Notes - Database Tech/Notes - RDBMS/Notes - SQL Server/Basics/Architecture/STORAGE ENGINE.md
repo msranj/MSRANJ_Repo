@@ -36,6 +36,7 @@ Page consists of 3 sections,
  In Row offset location of record will be stored (2 bytes).
 
 **Types of Pages:**
+
 	• **Data Page** – stores data entered by user.
 	• **Index Page** – Indexes are pointer which store address of original pages for quickly locating data
 	• **Free space page** – It stores page allocation information and unused space available on pages.
@@ -47,6 +48,7 @@ Page consists of 3 sections,
 	• These are important types of pages. All these pages are further grouped into Extent.
 
 **SQL Server Extents:**
+
 	Extent is a storage structure consists of 8 consecutive SQL Server pages. Pages in a Extent can be one table (or) upto Eight tables.
 	
 	There are 2 types of Extents
@@ -57,6 +59,7 @@ Page consists of 3 sections,
 	When a table is created and a row is inserted table gets 1 page in mixed extent, when a table grows then these tables moved to uniform extent. This is to manage space efficiently.
 
 **SQL Server File**
+
 	All the extents further group into a File. A file we will have better control in SQL Server.
 	There are 2 types of files mainly,
 	
