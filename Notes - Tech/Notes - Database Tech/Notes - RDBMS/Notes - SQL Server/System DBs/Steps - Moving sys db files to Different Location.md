@@ -2,7 +2,7 @@
 
 https://docs.microsoft.com/en-us/sql/relational-databases/databases/move-system-databases?view=sql-server-ver15
 
-	- Steps for moving master & resource db are different. For rest of system dbs the procedure is same.
+Steps for moving master & resource db are different. For rest of system dbs the procedure is same.
 
 ### Steps for: Moving Model db files to new locations
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
