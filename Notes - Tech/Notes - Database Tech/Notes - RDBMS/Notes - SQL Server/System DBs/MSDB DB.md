@@ -1,6 +1,6 @@
 ## MSDB Database
 
-	Mostly known as “the SQL Server Agent database” because it stores information of all 
+Mostly known as “the SQL Server Agent database” because it stores information of all 
 
 		○ SQL Agent jobs & its configuration 
 		○ Job execution history.
@@ -9,7 +9,7 @@
 		○ Service Broker 
 		○ Database Mail 
 	
-	MSDB has pre-defined database roles 
+MSDB has pre-defined database roles 
 
 		○ Database mail
 			▪ DatabaseMailUserRole
@@ -43,4 +43,4 @@
 			▪ UtilityCMRReader
 			▪ UtilityIMRWriter
 			▪ UtilityIMRReader
-            
+
