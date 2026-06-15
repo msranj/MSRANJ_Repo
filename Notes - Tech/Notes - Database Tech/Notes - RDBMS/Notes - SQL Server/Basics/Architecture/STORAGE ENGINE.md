@@ -30,9 +30,9 @@ Page consists of 3 sections,
 
  **Row offset array** : details of where each data / record is placed. 
 
-	**Page Header** – It consists of Page ID, Page Type, Object ID Header version.
-	**Page ID** – To identify particular page using unique page ID.
-	**Page Type** – What type of page it is either data page or Index page.
+    **Page Header** – It consists of Page ID, Page Type, Object ID Header version.
+    **Page ID** – To identify particular page using unique page ID.
+    **Page Type** – What type of page it is either data page or Index page.
 
  In Row offset location of record will be stored (2 bytes).
 
