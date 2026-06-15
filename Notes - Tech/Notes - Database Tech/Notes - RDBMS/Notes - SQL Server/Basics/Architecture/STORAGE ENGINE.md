@@ -50,14 +50,14 @@ Page consists of 3 sections,
 
 **SQL Server Extents:**
 
-	Extent is a storage structure consists of 8 consecutive SQL Server pages. Pages in a Extent can be one table (or) upto Eight tables.
+Extent is a storage structure consists of 8 consecutive SQL Server pages. Pages in a Extent can be one table (or) upto Eight tables.
 	
-	There are 2 types of Extents
+There are 2 types of Extents
 	
-	**Uniform Extent**: If all pages are going to store same table data
-	**Mixed Extent**: If the pages shared by 2 (or) more tables.
+	Uniform Extent: If all pages are going to store same table data
+	Mixed Extent: If the pages shared by 2 (or) more tables.
 	
-	When a table is created and a row is inserted table gets 1 page in mixed extent, when a table grows then these tables moved to uniform extent. This is to manage space efficiently.
+When a table is created and a row is inserted table gets 1 page in mixed extent, when a table grows then these tables moved to uniform extent. This is to manage space efficiently.
 
 **SQL Server File**
 
