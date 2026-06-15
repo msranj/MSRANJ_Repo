@@ -79,7 +79,7 @@ Some files stored system data and some store user database data. Logically divid
 
 ![alt text](image.png)
 
-*** DATABASE ARCHITECTURE***
+**DATABASE ARCHITECTURE**
 
 SQL Server data mainly in 2 types of files,
 
