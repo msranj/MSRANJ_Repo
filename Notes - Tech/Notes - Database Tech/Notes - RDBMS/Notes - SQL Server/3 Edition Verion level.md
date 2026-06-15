@@ -34,22 +34,22 @@ http://www.fmsinc.com/microsoftAccess/SQLServerUpsizing/express/index.html
 
 Many versions of Microsoft SQL Server Express and service packs were released over the years. Here's a summary by Major Version:
 
-Major Version	Service Packs
------------------------------------
+	Major Version	Service Packs
+	-----------------------------------
 
-2019	->		None
+	2019	->		None
 
-2017	->		None
+	2017	->		None
 
-2016	->		SP1 and SP2
+	2016	->		SP1 and SP2
 
-2014	->		SP1 and SP2
+	2014	->		SP1 and SP2
 
-2012	->		SP1, SP2, and SP3
+	2012	->		SP1, SP2, and SP3
 
-2008	->		R2 RTM, R2 SP1, and R2 SP2
+	2008	->		R2 RTM, R2 SP1, and R2 SP2
 
-2005	->		SP1, SP2, SP3 and SP4
+	2005	->		SP1, SP2, SP3 and SP4
 
 
 Note: 
