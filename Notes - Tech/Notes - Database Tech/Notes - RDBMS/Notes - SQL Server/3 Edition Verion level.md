@@ -36,6 +36,7 @@ Many versions of Microsoft SQL Server Express and service packs were released ov
 
 Major Version	Service Packs
 -----------------------------------
+
 2019			None
 2017			None
 2016			SP1 and SP2
