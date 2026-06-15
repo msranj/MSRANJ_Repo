@@ -38,12 +38,19 @@ Major Version	Service Packs
 -----------------------------------
 
 2019			None
+
 2017			None
+
 2016			SP1 and SP2
+
 2014			SP1 and SP2
+
 2012			SP1, SP2, and SP3
+
 2008			R2 RTM, R2 SP1, and R2 SP2
+
 2005			SP1, SP2, SP3 and SP4
+
 
 Note: 
 - SQL Server 2017 and later versions will no longer receive Service Packs, only Cumulative Updates and Critical Updates. For more details, visit Microsoft's SQL Server Service Packs are discontinued starting from SQL Server 2017.
