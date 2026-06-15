@@ -18,7 +18,7 @@ The following pictures give you an overview about the most important components 
 
 The biggest component within the relational engine is the Query Optimizer.
 
-*Reading data*
+### Reading data
 
 The query – that we are submitting to SQL Server – goes through the Protocol Layer to the Command Parser. The command parser just checks if we are providing a valid TSQL statement, if we are referencing tables and columns that exist in our database. The result of the command parser is a so-called Query Tree, a tree structure that represents our query. The tree structure is used by the query optimizer to generate an execution plan.
 	
