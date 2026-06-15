@@ -13,6 +13,7 @@ The status is either a 0, 1 or 2:
 
 How to delete a trace flag
 **********************
+
 Step1: find the trace id from : select * from sys.traces.
 
 Step2: stop the trace by executing sp_trace_setstatus trace_id, 0 .
