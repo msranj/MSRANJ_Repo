@@ -34,9 +34,9 @@ How to know what trace flags are enabled on instance?
 	DBCC TRACESTATUS(-1);
 	Go
 For current session, what is command to check what trace flags are enabled?
-'''
+
 	DBCC TRACESTATUS ();
 	Go
-'''
+
 
 
