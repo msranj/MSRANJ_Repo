@@ -98,14 +98,12 @@ Levels of Locking's: is how rigidly lock is provisioned.
     
     sql engine recognizes 2 types of schema locks.
 
-				• Schema modification (Sch-M): 
-                
+				• Schema modification (Sch-M):                 
                 this type of lock is acquired for DML operations, it objects all other transactions on the table/object. Only 1 (Sch-M) possible at any time. 
 
 					Ex: Rebuild Index tasks
 
-				• Schema stability (Sch-U): 
-                
+				• Schema stability (Sch-U):                 
                 this type of lock occurs when query executed & with execution plan generated. This does not prevent other transactions to acquire on objects but prevents the modifications of structures to tables/objects.
 	
 	Bulk update (BU):
