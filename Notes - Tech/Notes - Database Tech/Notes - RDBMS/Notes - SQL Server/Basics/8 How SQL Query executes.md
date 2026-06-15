@@ -34,7 +34,7 @@ As soon as the page is read into the buffer pool, the page is returned back to t
 
 **Changing data**
 	
-    When we are dealing with TSQL statements that are changing data (INSERT, UPDATE, DELETE, MERGE), the storage engine also interacts with the **Transaction Manager**. The transaction manager writes transaction log records into the transaction log that describe the changes we have performed for the transaction. As soon as these records are written out, the transaction can commit. This also means that your SQL Server instance can be only as fast as your transaction log.
+When we are dealing with TSQL statements that are changing data (INSERT, UPDATE, DELETE, MERGE), the storage engine also interacts with the **Transaction Manager**. The transaction manager writes transaction log records into the transaction log that describe the changes we have performed for the transaction. As soon as these records are written out, the transaction can commit. This also means that your SQL Server instance can be only as fast as your transaction log.
 	
-	Pages that were changed in memory are written to the storage subsystem through the so-called CHECKPOINT process. By default, the CHECKPOINT process runs about every minute, and requests all dirty pages from the buffer manager. A dirty page is page that was changed in memory but hasn’t yet been written to the storage. As soon as a dirty page is written out to the storage, the page is marked as a clean page.
+Pages that were changed in memory are written to the storage subsystem through the so-called CHECKPOINT process. By default, the CHECKPOINT process runs about every minute, and requests all dirty pages from the buffer manager. A dirty page is page that was changed in memory but hasn’t yet been written to the storage. As soon as a dirty page is written out to the storage, the page is marked as a clean page.
 
