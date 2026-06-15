@@ -20,15 +20,15 @@ The biggest component within the relational engine is the Query Optimizer.
 
 *Reading data*
 
-	The query – that we are submitting to SQL Server – goes through the Protocol Layer to the Command Parser. The command parser just checks if we are providing a valid TSQL statement, if we are referencing tables and columns that exist in our database. The result of the command parser is a so-called Query Tree, a tree structure that represents our query. The tree structure is used by the query optimizer to generate an execution plan.
+The query – that we are submitting to SQL Server – goes through the Protocol Layer to the Command Parser. The command parser just checks if we are providing a valid TSQL statement, if we are referencing tables and columns that exist in our database. The result of the command parser is a so-called Query Tree, a tree structure that represents our query. The tree structure is used by the query optimizer to generate an execution plan.
 	
-	The compiled execution plan is afterwards handed over to the Query Executor. The task of the query executor is to execute the execution plan. But in the first step the compiled plan is cached in the Plan Cache for further reuse. Plan Caching is a powerful and at the same time also a very dangerous concept in SQL Server. We will also cover that important topic throughout the next weeks.
+The compiled execution plan is afterwards handed over to the Query Executor. The task of the query executor is to execute the execution plan. But in the first step the compiled plan is cached in the Plan Cache for further reuse. Plan Caching is a powerful and at the same time also a very dangerous concept in SQL Server. We will also cover that important topic throughout the next weeks.
 	
-	After our execution plan is cached, the query executor communicates with the storage engine, and executes every operator in our execution plan. When we are accessing data in our execution plan (we are always doing that!), the *Access Methods* are asking the Buffer Manager for specific pages that we want to read. 
+After our execution plan is cached, the query executor communicates with the storage engine, and executes every operator in our execution plan. When we are accessing data in our execution plan (we are always doing that!), the *Access Methods* are asking the Buffer Manager for specific pages that we want to read. 
 	
-	The buffer manager manages the Buffer Pool, where our pages of 8kb are stored. The buffer pool itself is the main memory consumer of SQL Server and its size can be configured through the Min/Max Server Memory Setting.
+The buffer manager manages the Buffer Pool, where our pages of 8kb are stored. The buffer pool itself is the main memory consumer of SQL Server and its size can be configured through the Min/Max Server Memory Setting.
 	
-	When a requested page is already stored in the buffer pool, the page is immediately returned. This is a so-called Logical Read in SQL Server. If the page is not stored in the buffer pool, the buffer manager issues an asynchronous I/O operation to read the requested page physically from our storage subsystem into the buffer pool. This is a so-called Physical Read. During the asynchronous I/O our query has to wait until the operation is completed.
+When a requested page is already stored in the buffer pool, the page is immediately returned. This is a so-called Logical Read in SQL Server. If the page is not stored in the buffer pool, the buffer manager issues an asynchronous I/O operation to read the requested page physically from our storage subsystem into the buffer pool. This is a so-called Physical Read. During the asynchronous I/O our query has to wait until the operation is completed.
 	
-	As soon as the page is read into the buffer pool, the page is returned back to the access method that requested it. When the execution plan is finished, the produced data is returned through the protocol layer back to the application that submitted the query.
+As soon as the page is read into the buffer pool, the page is returned back to the access method that requested it. When the execution plan is finished, the produced data is returned through the protocol layer back to the application that submitted the query.
 
