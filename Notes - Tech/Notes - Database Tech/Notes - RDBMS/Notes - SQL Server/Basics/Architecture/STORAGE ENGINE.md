@@ -24,13 +24,16 @@ Data in SQL Server is stored inside Data pages. Each Data page is 8 KB size.
 
 Page consists of 3 sections,
 
-	• **Page Header (96 Bytes)**
-	• **Actual Data / Payload** : stores data/records
-	• **Row offset array** : details of where each data / record is placed. 
+ **Page Header (96 Bytes)**
+
+ **Actual Data / Payload** : stores data/records
+
+ **Row offset array** : details of where each data / record is placed. 
 		• **Page Header** – It consists of Page ID, Page Type, Object ID Header version.
 		• **Page ID** – To identify particular page using unique page ID.
 		• **Page Type** – What type of page it is either data page or Index page.
-	• In Row offset location of record will be stored (2 bytes).
+
+ In Row offset location of record will be stored (2 bytes).
 
 **Types of Pages:**
 	• **Data Page** – stores data entered by user.
