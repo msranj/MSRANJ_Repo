@@ -1,25 +1,55 @@
 Locks in SQL Server database
 ********************
+
 https://www.sqlshack.com/locking-sql-server/
+
 https://www.youtube.com/watch?v=9lmPOTv-pDc
 
+SQL Server Locks: 
 
-	• Locks are designed to work seamlessly in multi-user environment & to ensure database integrity as it forces every transaction to pass ACID property test.
+https://www.sqlshack.com/locking-sql-server/
+	
+Understanding SQL Server Lock Escalation   :
+https://logicalread.com/sql-server-2012-lock-escalation-mc03/#.YZ0zt2BBzIU
+	
+Understanding SQL Server Lock Granularity : 
+
+https://logicalread.com/sql-server-lock-granularity-mc03/#.YZ0zuWBBzIU
+	
+Concurrency Models in SQL Server 2012       : 
+
+https://logicalread.com/sql-server-concurrency-models-mc03/#.YZ0zbGBBzIU
+	
+Concurrency Control Models, ACID Properties and Transaction Isolation Levels : 
+
+https://social.technet.microsoft.com/wiki/contents/articles/51484.sql-server-concurrency-control-models-acid-properties-and-transaction-isolation-levels.aspx
+	
+SQL Server Exploring Locks : 
+    https://www.youtube.com/watch?v=wZRvVLwUb04
+	
+Lock Escalations                    :
+    https://www.sqlpassion.at/archive/2014/02/25/lock-escalations/
+    
+Why do we need UPDATE Locks in SQL Server?: 
+    <https://www.sqlpassion.at/archive/2014/07/28/why-do-we-need-update-locks-in-sql-server/> 
+
+
+
+• Locks are designed to work seamlessly in multi-user environment & to ensure database integrity as it forces every transaction to pass ACID property test.
 
 
 Levels of Locking's: is how rigidly lock is provisioned.
 --------------------------------------------------------------------------
-Source: atos internal portal for learning
 
-	Shared: users cannot modify the data, but can view data.
+**Shared**: users cannot modify the data, but can view data.
 
-	Exclusive: other users should not be able to see the data that is about to be modified.
+**Exclusive**: other users should not be able to see the data that is about to be modified.
 
-	Deadlock: 2 processes are locking each other's resources that are required to execute.
-
+**Deadlock**: 2 processes are locking each other's resources that are required to execute.
 
 
-**Types of locks**:
+
+## Types of locks:
 
 **Exclusive Lock (X)**: 
 
@@ -33,11 +63,11 @@ Source: atos internal portal for learning
 
 **Update lock (U)**:
 
-▪ Similar to shared lock but designed to be flexible in a way.
+    ▪ Similar to shared lock but designed to be flexible in a way.
 
-▪ An update lock (U) will be imposed on record that already has shared lock. In such case, update lock will impose another shared lock on the target row. Once the transaction is ready to make change of dta, then it will Impose Exclusive lock(X) on the target server.
+    ▪ An update lock (U) will be imposed on record that already has shared lock. In such case, update lock will impose another shared lock on the target row. Once the transaction is ready to make change of dta, then it will Impose Exclusive lock(X) on the target server.
 
-▪ Update lock cannot be applied on the target row if it already has update lock.
+    ▪ Update lock cannot be applied on the target row if it already has update lock.
 
 **Intent lock (I)**:
 
