@@ -72,19 +72,19 @@ When a table is created and a row is inserted table gets 1 page in mixed extent,
 
 **SQL Server Database**
 
-	Files combine to form database. We require minimum 2 files 1 MF and 1 LDF to create a database. Maximum we can ‘n’ number of files means No limit.
+Files combine to form database. We require minimum 2 files 1 MF and 1 LDF to create a database. Maximum we can ‘n’ number of files means No limit.
 
-	**File Groups**
-	Some files stored system data and some store user database data. Logically dividing databases into groups called File Groups.
+**File Groups**
+Some files stored system data and some store user database data. Logically dividing databases into groups called File Groups.
 
 ![alt text](image.png)
 
 *** DATABASE ARCHITECTURE***
 
-	SQL Server data mainly in 2 types of files,
+SQL Server data mainly in 2 types of files,
 
-		1. Data File (MDF)
-		2. Log File (LDF)
+	1. Data File (MDF)
+	2. Log File (LDF)
 
 	Data file stores actual data with .mdf extension. It stores permanent data.
 
