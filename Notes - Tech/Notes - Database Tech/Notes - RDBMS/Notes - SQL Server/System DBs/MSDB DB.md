@@ -50,6 +50,8 @@ MSDB has pre-defined database roles
 msdb cannot be detached under normal conditions; if msdb is corrupted and there is no backup, start 
 the instance in minimal configuration mode with trace flag 3608 (which skips auto-recovery of all 
 databases except master) and then detach msdb manually. 
+
+
 	net start MSSQLSERVER /T3608 /f /m"SQLCMD" 
 	SQLCMD -E -S . -Q "EXEC sp_detach_db msdb"
 
