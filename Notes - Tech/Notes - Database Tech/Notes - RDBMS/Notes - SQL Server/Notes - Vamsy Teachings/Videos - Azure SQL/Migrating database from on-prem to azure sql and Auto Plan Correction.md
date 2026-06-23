@@ -14,17 +14,23 @@ Different stage involved in Migration process flow
  Discover:
  - what servers are in inventory.
 	-- Azure migrate
-	-- Microsoft assessment and planning toolkit (MAP toolkit)
+	-- Microsoft assessment and planning toolkit 
+    (MAP toolkit)
 	
 Assess:
 - check for any issues with migration.
-	-- azure Data studio (ADS)
+    
+    - azure Data studio (ADS)
 
  different ways to migrate databases from On-Prem to Azure SQL
  ---------------------------------------
  - SSMS-> select the database->Tasks->
+
 	>> Extract Data-Tier Application(DACPAC)
+
 	>> Deploy Database to Microsoft Azure SQL Database(BACPAC)
+
 	>> Export Data-Tier application(BACPAC, can store in local disk or Azure storage account ) 
-	>> Import data
-	>> Export data 
+
+        >> Import data
+        >> Export data 
