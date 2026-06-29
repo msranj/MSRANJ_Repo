@@ -5,3 +5,16 @@ Video - https://drive.google.com/file/d/1tPHo8urHwABV_5zjwnWeJrssiMgnhmoV/view
 
 Video @ 20: 00
 
+Troubleshooting scenario:
+------------------------------
+issue: client is unable to use Azure SQL instance from local machine SSMS. error is 
+
+```
+Cannot open server 'myserver.database.windows.net' requested by the login.
+Client is not allowed to access the server. (Microsoft SQL Server, Error: 40914)
+```
+![error 40914](https://i.sstatic.net/hNqDm.png)
+
+what is the approach?
+
+
