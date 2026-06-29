@@ -17,4 +17,15 @@ Client is not allowed to access the server. (Microsoft SQL Server, Error: 40914)
 
 what is the approach?
 
+#### Troubleshooting scenario:
+------------------------------
+issue: client is unable to use Azure SQL instance from local machine SSMS. what is the approach?
+
+Approach:1
+under the Networking Section
+- Check the box: 
+
+    Allow Azure services & resources to access this server
+        
+        (all connection including external services, Internal Azure Storage, azure network  etc).
 
