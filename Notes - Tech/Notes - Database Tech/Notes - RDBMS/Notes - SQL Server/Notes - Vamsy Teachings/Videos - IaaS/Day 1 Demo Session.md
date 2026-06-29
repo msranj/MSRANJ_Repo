@@ -1,10 +1,6 @@
 ### Day 1 Demo Session.
 Video - https://drive.google.com/file/d/1tPHo8urHwABV_5zjwnWeJrssiMgnhmoV/view
 
---------- Only basics of the curriculum was discussed. --------------
-
-Video @ 20: 00
-
 Troubleshooting scenario:
 ------------------------------
 issue: client is unable to use Azure SQL instance from local machine SSMS. error is 
@@ -15,11 +11,7 @@ Client is not allowed to access the server. (Microsoft SQL Server, Error: 40914)
 ```
 ![error 40914](https://i.sstatic.net/hNqDm.png)
 
-what is the approach?
-
-#### Troubleshooting scenario:
-------------------------------
-issue: client is unable to use Azure SQL instance from local machine SSMS. what is the approach?
+#### what is the approach?
 
 Approach:1
 under the Networking Section
