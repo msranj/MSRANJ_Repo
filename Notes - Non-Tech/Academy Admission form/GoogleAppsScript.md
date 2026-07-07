@@ -76,9 +76,9 @@ when user submit the form, it should save the data to the google sheet, show me 
 please make the form look noce using bootstrap.
 give me all the code i need (HTML, Bootstrap, abd apps script) and also clear steps for:
 
-- creating the google sheet.
-- adding the code.
-- publishing the web app so i can open and fill out the form.
-- how to share it with the data entry staff. 
+    - creating the google sheet.
+    - adding the code.
+    - publishing the web app so i can open and fill out the form.
+    - how to share it with the data entry staff. 
 
 
