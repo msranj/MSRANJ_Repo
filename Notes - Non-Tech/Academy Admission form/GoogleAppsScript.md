@@ -26,9 +26,12 @@ the address should be mentioned as below.
 2. URL focus on collecting information as per given preschool programs.
 
 	1.Day Care
-	2.Tutoring only
-	3.Activities only
-	4.Combination
+	
+    2.Tutoring only
+	
+    3.Activities only
+	
+    4.Combination
 
 ------------1.Day Care---------------------------
 
@@ -40,13 +43,15 @@ the address should be mentioned as below.
 	- a box to enter the age of Preschool
 	- a box to enter any Additional Notes required by parents:
 
--------------2.Tutoring only---------------------------
+---------2.Tutoring only---------------------------
+
 	- A box to enter Age of student.
 	- A box to enter Grade/Std Student Studying.
 	- A box to enter specific subject(s) tution required. 
 	- a box to enter any Additional Notes required by parents:
 
 -------------3.Activities only---------------------------
+
 	- A box to enter Age of student.
 	- A check box to select DANCE. 
 	- A check box to select KARATE.
@@ -57,6 +62,7 @@ the address should be mentioned as below.
 	- a box to enter any Additional Notes required by parents:
 
 -------------4.Combination-----------------------------
+
 	- A box to enter Age of student.
 	- A check box to select Daycare + Tutoring 
 	- A check box to select Daycare + Activities.
