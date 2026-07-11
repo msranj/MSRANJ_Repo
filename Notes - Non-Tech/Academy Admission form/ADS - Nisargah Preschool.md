@@ -7,7 +7,7 @@ Banner:
 4. portray as lung space with very spacious environment (open & Free environment)
 5. child friendly environment.
 6. No compromise on safety of kids.
-7. live streaming of classroom.
+7. live cctv streaming of classroom.
 
 
 
