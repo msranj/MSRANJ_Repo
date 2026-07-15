@@ -15,6 +15,11 @@
         Teacher's salary
             if Full day: Rs 15000
             if half-day: Rs 12000
+        
+        Didi/CareTaker
+            if full day: Rs 12000 (Max)
+        
+        
 
-            
+
 
