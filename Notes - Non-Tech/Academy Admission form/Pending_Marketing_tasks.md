@@ -4,7 +4,7 @@
 
 ### 1. Daycare & Playgroup
 
-**Pre-school**
+**Fees: Pre-school**
 
 1. Fee Rs 66000:
     
@@ -19,7 +19,19 @@
         Didi/CareTaker
             if full day: Rs 12000 (Max)
         
+
+**Fees: DayCare**
+
         
+    breakdown of amount
+        for 
+        1 hr (5 days week / Month) : Rs 1800
+        2 hr (5 days week / Month) : Rs 3200
 
-
+        Teacher's salary
+            if Full day: Rs 15000
+            if half-day: Rs 12000
+        
+        Didi/CareTaker
+            if full day: Rs 12000 (Max)
 
