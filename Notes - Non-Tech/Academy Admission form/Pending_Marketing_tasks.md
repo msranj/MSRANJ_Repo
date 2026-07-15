@@ -27,11 +27,7 @@
         for 
         1 hr (5 days week / Month) : Rs 1800
         2 hr (5 days week / Month) : Rs 3200
-
-        Teacher's salary
-            if Full day: Rs 15000
-            if half-day: Rs 12000
-        
-        Didi/CareTaker
-            if full day: Rs 12000 (Max)
+        > 3hr-5hr (5 days week / Month) : Rs 5500
+    
+        On-Demand (walkin): Per hr Rs 3000
 
