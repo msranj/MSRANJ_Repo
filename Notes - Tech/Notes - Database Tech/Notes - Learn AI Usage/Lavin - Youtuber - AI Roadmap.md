@@ -26,5 +26,52 @@ Building AI Apps with ChatGPT API - [Deeplearning.ai](https://www.deeplearning.a
 Notes:
 -----------
 1. Learn AI essentials from google & its association with python
-     ``` This helps building AI functioning without learning irrelevant things like building apps, rudimentry level projects.```
+     ``` This helps building AI things related to python that elevates functioning without learning irrelevant things like building apps, rudimentry level projects. ```
+
+    ```     here they teach     ```
+
+    ``` 1. Data Manipulation```
+
+    ``` 2. API's```
+
+    ``` 3. AI libraries```
+
+2. For practicing, use Higgingface (what is github for coding, huggingface is for AI Models)
+
+    ``` here we learn how to use AI Models and what can be done using the same```
+
+3. Build Real Projects (dont just see the tutorials..)
+
+4. Learn CrewAI by learning Multi AI Agent systems for building AI Teams with AI agents, how to accomplish the work.
+
+5. Learning MCP basic course from Anthropic go Solve Business probelms.
+    
+    ``` Automate the most repeatetive work, lengthy tasks ```
+
+6. Learn Prompt Engineering skills to get high quality output using
+
+    ```1. Reasoning with 01 ```
+
+    ```2. OpenAI: A practical guide to build agents ```
+
+    here high quality outputs can be thought as
+    1. Chain of thoughts.
+    2. Few short learning
+    3. Prompt optimization.
+
+7. Mindset 
+
+    Focus on solving a problem
+    
+    (
+    think to become the best in using AI not code and create a new AI model. )
+    try learning no code AI resources like
+    1. Zapier
+    2. n8n
+    3. make.com
+
+
+
+
+
 
