@@ -22,3 +22,9 @@ Google Vertex AI Courses - [skills.Google.com](https://www.skills.google/course_
 
 Building AI Apps with ChatGPT API - [Deeplearning.ai](https://www.deeplearning.ai/courses/chatgpt-building-system) 
 
+
+Notes:
+-----------
+1. Learn AI essentials from google & its association with python
+     ``` This helps building AI functioning without learning irrelevant things like building apps, rudimentry level projects.```
+
