@@ -26,7 +26,7 @@ Sample Preschool Teacher's Profiles
 
 [Deepthi Jagannath - Academic counsellor, Euro School](https://www.linkedin.com/in/deepthi-jagannath-b8864970/)
 
-[Druthi Shetty - Open to work](https://www.linkedin.com/in/druthi-shetty-3a874319b/).
+[Druthi Shetty - Looking for job](https://www.linkedin.com/in/druthi-shetty-3a874319b/).
 
 [Namrata sahoo - special educator](https://www.linkedin.com/in/namrata-sahoo-65327677/)
 
