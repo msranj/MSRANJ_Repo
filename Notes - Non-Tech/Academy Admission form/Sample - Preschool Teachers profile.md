@@ -16,8 +16,19 @@ Sample Preschool Teacher's Profiles
 [Tungashree Das - DPS Ecity, science teacher](https://www.linkedin.com/in/tungashree-das-84a845178/)
 
 
+[Geetha Rao - Looking for job](https://www.linkedin.com/in/geeta-rao-a5b5a427/)
+
+    About me & what I’m looking for:
+    💼 I’m looking for Academic Coordinator, English Teacher, Science Teacher, Online Tutor, and Groomer roles.
+    🌎 I’m open to roles in Bengaluru.
+    ⭐ I’ve previously worked at Jain Heritage School - India.
 
 
+[Deepthi Jagannath - Academic counsellor, Euro School](https://www.linkedin.com/in/deepthi-jagannath-b8864970/)
+
+[Druthi Shetty - Open to work](https://www.linkedin.com/in/druthi-shetty-3a874319b/).
+
+[Namrata sahoo - special educator](https://www.linkedin.com/in/namrata-sahoo-65327677/)
 
 
 
